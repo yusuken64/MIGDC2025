@@ -63,4 +63,5 @@ label choice_scene_truth:
 
 label choice_scene_end:
     "Whatever path you chose, you must live with the consequences."
+    jump results_scene
     return
