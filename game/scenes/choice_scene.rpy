@@ -44,13 +44,59 @@ screen document_choice_screen():
 # Detail screens for the documents
 screen money_details():
     modal True
-    add "document_money_details.png" at truecenter
-    textbutton "Back" action Hide("money_details") xpos 0.45 ypos 0.85
+
+    frame:
+        xalign 0.5
+        yalign 0.4
+        xsize 700
+        ysize 700
+
+        viewport:
+            draggable True
+            scrollbars "vertical"
+
+            vbox:
+                text "Here are your money details. You can list your data here."
+                text "You can add as much text as you need, and it will be scrollable."
+                text "Line 3: More details here."
+                text "Line 4: Additional information."
+                text "Line 5: Financial summary."
+                text "Line 6: Expenses and income breakdown."
+
+    textbutton "Back":
+        action Hide("money_details")
+        xpos 0.45
+        ypos 0.85
+        xpadding 20
+        ypadding 10
 
 screen truth_details():
     modal True
-    add "document_truth_details.png" at truecenter
-    textbutton "Back" action Hide("truth_details") xpos 0.45 ypos 0.85
+
+    frame:
+        xalign 0.5
+        yalign 0.4
+        xsize 700
+        ysize 700
+
+        viewport:
+            draggable True
+            scrollbars "vertical"
+
+            vbox:
+                text "Here are your money details. You can list your data here."
+                text "You can add as much text as you need, and it will be scrollable."
+                text "Line 3: More details here."
+                text "Line 4: Additional information."
+                text "Line 5: Financial summary."
+                text "Line 6: Expenses and income breakdown."
+
+    textbutton "Back":
+        action Hide("truth_details")
+        xpos 0.45
+        ypos 0.85
+        xpadding 20
+        ypadding 10
 
 label choice_scene_money:
     "You let the corporate money influence you."
