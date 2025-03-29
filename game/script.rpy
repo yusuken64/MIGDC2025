@@ -5,11 +5,14 @@
 
 define e = Character("Eileen")
 
+default money = 100
+default trust = 100 
 
 # The game starts here.
 
 label start:
-
+    show screen hud
+    
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -24,7 +27,7 @@ label start:
 
     # These display lines of dialogue.
 
-    e "Hello MIGDC 2025!"
+    e "Hello MIGDC 2025! test2"
     
     "You find yourself at a crossroads."
 

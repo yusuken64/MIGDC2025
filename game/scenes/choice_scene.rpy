@@ -53,10 +53,12 @@ screen truth_details():
 
 label choice_scene_money:
     "You let the corporate money influence you."
+    $ money += 500  # Increment money by 500
     jump choice_scene_end
 
 label choice_scene_truth:
     "You publish the damning truth about an evil organization."
+    $ truth += 500  # Increment money by 500
     jump choice_scene_end
 
 label choice_scene_end:
