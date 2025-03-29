@@ -6,3 +6,6 @@ log.txt
 errors.txt
 log.txt
 *.rpyb
+traceback.txt
+*.bak
+/game/tl
