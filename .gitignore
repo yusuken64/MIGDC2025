@@ -4,3 +4,5 @@ log.txt
 *.rpyc
 *.rpyb
 errors.txt
+log.txt
+*.rpyb
