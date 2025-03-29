@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scenes/choice_scene.rpy", line 6: expected statement.
+    imagebutton:
+               ^
+
+File "game/scenes/choice_scene.rpy", line 13: expected statement.
+    imagebutton:
+               ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Sat Mar 29 09:32:07 2025

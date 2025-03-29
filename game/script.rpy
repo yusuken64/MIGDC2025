@@ -20,14 +20,25 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show smiley
 
     # These display lines of dialogue.
 
     e "Hello MIGDC 2025!"
+    
+    "You find yourself at a crossroads."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    menu:
+        "Go to Choice Scene":
+            "You decide to go left and see where the path takes you."
+            jump choice_scene
+    
+        "Go right":
+            "You choose to go right, curious about what lies ahead."
+    
+        "Stay put":
+            "You decide to stay put, waiting for something to happen."
 
-    # This ends the game.
+    "Whatever you choose, your journey continues..."
 
     return
