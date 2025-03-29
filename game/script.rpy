@@ -37,22 +37,11 @@ label start:
 
     # These display lines of dialogue.
 
-    e "Hello MIGDC 2025! test2"
+    e "Oh man I just got a job as an editor how exciting"
     
-    "You find yourself at a crossroads."
-
-    menu:
-        "Go to Choice Scene":
-            "You decide to go left and see where the path takes you."
-            jump choice_scene
+    "I better choose carefully what articles to accept/reject or it may have dire consequences!!"
     
-        "Go to talk Scene":
-            "You choose to talk to the guy"
-            jump talk_scene
-    
-        "Stay put":
-            "You decide to stay put, waiting for something to happen."
-
-    "Whatever you choose, your journey continues..."
+    "A bad man came and made you an offer."
+    jump talk_scene
 
     return
