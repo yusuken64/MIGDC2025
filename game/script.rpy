@@ -36,8 +36,9 @@ label start:
             "You decide to go left and see where the path takes you."
             jump choice_scene
     
-        "Go right":
-            "You choose to go right, curious about what lies ahead."
+        "Go to talk Scene":
+            "You choose to talk to the guy"
+            jump talk_scene
     
         "Stay put":
             "You decide to stay put, waiting for something to happen."
