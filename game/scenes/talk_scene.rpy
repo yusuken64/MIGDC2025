@@ -4,11 +4,13 @@ label talk_scene:
     #scene bg classroom
     show badguy at right
 
-    guy "Hey, you wanted to talk to me?"
+    guy "Hey, brother can you run this article for our company?"
 
-    guy "Yeah, I wanted to ask you something."
-    guy "Sure, what is it?"
-    e "I just wanted to know more about you."
-    guy "Oh, well, I guess I can share a bit."
+    guy "I'll make it worht your while"
+    e "But sir those are lies and this may be unethical"
+    guy "but what if I give you 5 dollars"
 
+    "You contemplate what to do."
+    jump choice_scene
+    
     return
