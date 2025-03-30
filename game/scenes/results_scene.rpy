@@ -11,7 +11,7 @@ label results_scene:
     
     if day == 3:
         "You've made 3 choices and the world was effeced by your choices"
-        "You have reached the end of the story."
+        "You have reached the end of the story without dieing."
         $ renpy.quit()
 
     $ day += 1 

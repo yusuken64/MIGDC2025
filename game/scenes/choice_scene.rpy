@@ -24,6 +24,17 @@ label choice_scene:
             "Publish altruistic helpful document":
                 jump choice_scene_truth
 
+    elif day == 3:
+        e "Let’s see, the stories today involve the future of the city. Everything is on my hands…"
+        call screen document_choice_screen
+
+        menu:
+            "Publish a Greedy money document":
+                jump choice_scene_money
+
+            "Publish altruistic helpful document":
+                jump choice_scene_truth
+                
 screen document_choice_screen:
     modal True
 
