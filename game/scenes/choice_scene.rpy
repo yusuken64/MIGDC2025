@@ -124,6 +124,7 @@ With the rise of Artificial Intelligence being on the mind of many people, we at
         ypos 0.85
         xpadding 20
         ypadding 10
+        background "#0078D4"
 
 screen truth_details:
     modal True
@@ -140,12 +141,15 @@ screen truth_details:
 
             vbox:
                 if day == 1:
-                    text "Local Cultural Finds Put in Local Museum" size 100 bold True
+                    text "Abandoned Steel Mill Turned into Community Center" size 100 bold True
                     window:
                         xsize 800
                         ysize 2000
                         text """
-We’re coming live on an amazing discovery in the city as a series of ancient artifacts were discovered inside the city park after a man encountered a strangely high activity on a metal detector. The artifacts have been dated around 200 years ago and settle a long-held misbelief that the controversial founder of the city in fact, did steal these holy relics from the people who used to live in the area.
+Son of one of the city’s most prominent steel mill owners, Alex Ferrus, has announced that he plans on dedicating the abandoned General Forge steel mill, which has laid dilapidated for years, to be refurbished into a place where the community can rebuild after recent unrest.
+
+‘I think it will be an excellent opportunity for people to come together and make something special. Our city has a prominent place in history, and I would like to cherish that so the future generations can understand its’ significance
+
                         """
                 
                 elif day == 2:
@@ -177,6 +181,7 @@ A group of artists launched a class action lawsuit against ChippGPT, a new AI mo
         ypos 0.85
         xpadding 20
         ypadding 10
+        background "#0078D4"
 
 label choice_scene_money:
     "You let the corporate money influence you."
