@@ -7,6 +7,7 @@ define e = Character("Eileen")
 
 default money = 100
 default trust = 100 
+default day = 1
 
 # The game starts here.
 

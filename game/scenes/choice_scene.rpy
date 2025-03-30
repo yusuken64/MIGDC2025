@@ -112,12 +112,15 @@ It’s time for Synergenix Global to stop pretending that they’re saving the p
 
 label choice_scene_money:
     "You let the corporate money influence you."
-    $ money += 500  # Increment money by 500
+    $ money += 500
+    $ money -= 50
+    $ trust -= 200
     jump choice_scene_end
 
 label choice_scene_truth:
     "You publish the damning truth about an evil organization."
-    $ trust += 500  # Increment money by 500
+    $ trust += 100
+    $ money -= 50
     jump choice_scene_end
 
 label choice_scene_end:
