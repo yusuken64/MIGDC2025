@@ -34,7 +34,7 @@ label choice_scene:
 
             "Publish altruistic helpful document":
                 jump choice_scene_truth
-                
+
 screen document_choice_screen:
     modal True
 
@@ -75,8 +75,8 @@ screen money_details:
     frame:
         xalign 0.5
         yalign 0.4
-        xsize 700
-        ysize 700
+        xsize 1000
+        ysize 800
 
         viewport:
             draggable True
@@ -131,8 +131,8 @@ screen truth_details:
     frame:
         xalign 0.5
         yalign 0.4
-        xsize 700
-        ysize 700
+        xsize 1000
+        ysize 800
 
         viewport:
             draggable True
@@ -182,12 +182,12 @@ label choice_scene_money:
     "You let the corporate money influence you."
     $ money += 500
     $ money -= 50
-    $ trust -= 100
+    $ trust -= 50
     jump choice_scene_end
 
 label choice_scene_truth:
     "You publish the damning truth about an evil organization."
-    $ trust += 100
+    $ trust += 40
     $ money -= 50
     jump choice_scene_end
 
