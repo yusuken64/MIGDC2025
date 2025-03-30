@@ -288,7 +288,7 @@ screen navigation():
 
     vbox:
         xpos 0.5
-        ypos 0.5
+        ypos 0.7
 
         textbutton _("Start") action Start():
             xsize 400
